@@ -5,8 +5,10 @@
   "type": "module",
   "engines": {"node": ">=22"},
   "scripts": {
-    "test": "node --test",
+    "test": "node --disable-warning=ExperimentalWarning --test",
     "build": "node tools/check-syntax.mjs",
-    "inspect": "node src/inspect.mjs"
+    "inspect": "node src/inspect.mjs",
+    "river": "node --disable-warning=ExperimentalWarning src/cli.mjs",
+    "demo": "bash demo/demo.sh"
   }
 }
