@@ -1,0 +1,25 @@
+{
+  "format": "river-samples/v1",
+  "packetId": "02-backfill",
+  "records": [
+    {
+      "type": "reading",
+      "stationId": "north",
+      "bootId": "boot1",
+      "seq": 9,
+      "revision": 1,
+      "sampledAt": "2026-11-01T01:00:00.000Z",
+      "raw": "11.1200"
+    },
+    {
+      "type": "reading",
+      "stationId": "north",
+      "bootId": "boot1",
+      "seq": 10,
+      "revision": 1,
+      "sampledAt": "2026-11-01T02:00:00.000Z",
+      "raw": "12.3456"
+    }
+  ],
+  "sha256": "118434a00c7dc88479351059996b69070a9ffa4903090d9275147d30c953b793"
+}

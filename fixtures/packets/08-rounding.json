@@ -1,0 +1,44 @@
+{
+  "format": "river-samples/v1",
+  "packetId": "08-rounding",
+  "records": [
+    {
+      "type": "calibration",
+      "stationId": "edge",
+      "calibrationId": "identity",
+      "revision": 1,
+      "validFrom": "2026-11-01T00:00:00.000Z",
+      "validTo": "2026-11-01T12:00:00.000Z",
+      "scale": "1",
+      "offset": "0"
+    },
+    {
+      "type": "reading",
+      "stationId": "edge",
+      "bootId": "boot1",
+      "seq": 1,
+      "revision": 1,
+      "sampledAt": "2026-11-01T01:00:00.000Z",
+      "raw": "0.0005"
+    },
+    {
+      "type": "reading",
+      "stationId": "edge",
+      "bootId": "boot1",
+      "seq": 2,
+      "revision": 1,
+      "sampledAt": "2026-11-01T01:00:00.000Z",
+      "raw": "-0.0005"
+    },
+    {
+      "type": "reading",
+      "stationId": "edge",
+      "bootId": "boot1",
+      "seq": 3,
+      "revision": 1,
+      "sampledAt": "2026-11-01T01:00:00.000Z",
+      "raw": "9007199254740993.0005"
+    }
+  ],
+  "sha256": "6e790523d478b5c630de02689d0cf63092a9eac92f0f1ef436ef8a639b26f338"
+}

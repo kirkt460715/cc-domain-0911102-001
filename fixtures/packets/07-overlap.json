@@ -1,0 +1,17 @@
+{
+  "format": "river-samples/v1",
+  "packetId": "07-overlap",
+  "records": [
+    {
+      "type": "calibration",
+      "stationId": "north",
+      "calibrationId": "other",
+      "revision": 2,
+      "validFrom": "2026-11-01T02:00:00.000Z",
+      "validTo": "2026-11-01T05:00:00.000Z",
+      "scale": "1.03",
+      "offset": "-0.3"
+    }
+  ],
+  "sha256": "cfb5d6327ad40b66e63e1094566c2be57e4b47f76ead4af7d49e468625532a7a"
+}

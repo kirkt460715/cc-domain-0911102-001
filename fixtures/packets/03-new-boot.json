@@ -1,0 +1,16 @@
+{
+  "format": "river-samples/v1",
+  "packetId": "03-new-boot",
+  "records": [
+    {
+      "type": "reading",
+      "stationId": "north",
+      "bootId": "boot2",
+      "seq": 0,
+      "revision": 1,
+      "sampledAt": "2026-11-01T04:00:00.000Z",
+      "raw": "10.5"
+    }
+  ],
+  "sha256": "6bf1526dce108d356cc0ed5a8ff266a9789386288848ffa63f4c21c5a37df6ba"
+}

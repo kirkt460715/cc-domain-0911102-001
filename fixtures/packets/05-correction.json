@@ -1,0 +1,16 @@
+{
+  "format": "river-samples/v1",
+  "packetId": "05-correction",
+  "records": [
+    {
+      "type": "reading",
+      "stationId": "north",
+      "bootId": "boot1",
+      "seq": 10,
+      "revision": 2,
+      "sampledAt": "2026-11-01T07:00:00.000Z",
+      "raw": "12.4"
+    }
+  ],
+  "sha256": "9eeda38bcf873f03d85d6f6d2fdfd599ebe06812256c1e86d9b604ed1a8313c1"
+}

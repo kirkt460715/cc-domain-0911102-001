@@ -1,0 +1,25 @@
+{
+  "format": "river-samples/v1",
+  "packetId": "06-conflict",
+  "records": [
+    {
+      "type": "reading",
+      "stationId": "north",
+      "bootId": "boot1",
+      "seq": 10,
+      "revision": 2,
+      "sampledAt": "2026-11-01T07:00:00.000Z",
+      "raw": "12.9"
+    },
+    {
+      "type": "reading",
+      "stationId": "south",
+      "bootId": "boot1",
+      "seq": 2,
+      "revision": 1,
+      "sampledAt": "2026-11-01T04:00:00.000Z",
+      "raw": "8.9"
+    }
+  ],
+  "sha256": "bb5b13a092b3b061ac1842d7756a4d31b029a3bf8b8c1b6fe7d3f8d958989a07"
+}

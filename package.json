@@ -1,0 +1,12 @@
+{
+  "name": "river-sample-packets",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "test": "node --test",
+    "build": "node tools/check-syntax.mjs",
+    "inspect": "node src/inspect.mjs"
+  }
+}

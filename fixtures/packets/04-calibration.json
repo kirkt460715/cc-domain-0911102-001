@@ -1,0 +1,27 @@
+{
+  "format": "river-samples/v1",
+  "packetId": "04-calibration",
+  "records": [
+    {
+      "type": "calibration",
+      "stationId": "north",
+      "calibrationId": "base",
+      "revision": 2,
+      "validFrom": "2026-11-01T00:00:00.000Z",
+      "validTo": "2026-11-01T06:00:00.000Z",
+      "scale": "1.02",
+      "offset": "-0.3"
+    },
+    {
+      "type": "calibration",
+      "stationId": "south",
+      "calibrationId": "south-base",
+      "revision": 1,
+      "validFrom": "2026-11-01T00:00:00.000Z",
+      "validTo": "2026-11-01T12:00:00.000Z",
+      "scale": "0.8",
+      "offset": "0.05"
+    }
+  ],
+  "sha256": "39b3fa835eb98b7ca4f378cffd1ea056bd0a6d763795db503706920318a032e3"
+}
